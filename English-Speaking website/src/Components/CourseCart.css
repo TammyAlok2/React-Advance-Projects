@@ -1,0 +1,37 @@
+.main-cart {
+  display: flex;
+  width: 90%;
+  gap: 2rem;
+}
+.cart-container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid greenyellow;
+  border-radius: 10%;
+  font-size: small;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.cart-container img {
+  width: 50%;
+}
+
+.cart-container button {
+  font-size: x-large;
+  border: 2px solid green;
+  border-radius: 10px 10px 20px;
+  color: burlywood;
+  background-color: brown;
+  cursor: pointer;
+}
+.cart-container button:hover {
+  background-color: whitesmoke;
+  color: black;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

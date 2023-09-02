@@ -1,0 +1,8 @@
+.maincontainer{
+    display: flex;
+    flex-direction: row;
+}
+.month{
+    font-size: larger;
+    font-weight: bolder;
+}
