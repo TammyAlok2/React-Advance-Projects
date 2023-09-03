@@ -23,7 +23,7 @@ const items = useSelector((state)=>state.cart);
   //if the destructive error comes so use this || {} for undefined object
 
   const handleAdd= (product)=>{
-    console.log('love you muskan');
+
     toast.success('Product added successfully');
 dispatch(add(product));
     }
