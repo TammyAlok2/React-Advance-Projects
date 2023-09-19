@@ -48,6 +48,8 @@ const Navbar = () => {
               )}
             </li>
           </li>
+
+          <li><a href="/blog">Blogs </a> </li> 
         </ul>
       </div>
     </nav>
