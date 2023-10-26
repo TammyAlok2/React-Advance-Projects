@@ -3,7 +3,7 @@ import React from 'react'
 const Playlist = () => {
   return (
     <div>
-      this is sound.jsx file 
+      this is sound.jsx file.it contain sounds. 
     </div>
   )
 }
