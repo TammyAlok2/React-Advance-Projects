@@ -7,9 +7,10 @@ import Error from './Pages/Error'
 import ShareLayout from './Components/ShareLayout'
 import SingleProduct from './Pages/SingleProduct'
 import Cart from './Components/Cart'
-import './Style.css'
+import './App.css'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
+import Men from './Pages/Men'
 function Dashboard() {
   return (
     <div>
@@ -39,7 +40,7 @@ function App(){
 <Route path='*' element={<Error/>}/>
 <Route path = 'products/:productId' element={<SingleProduct/>}/>
 <Route path='cart' element={<Cart/>}/>
-
+<Route path='men' element={<Men/>}/>
 
 </Routes>
 

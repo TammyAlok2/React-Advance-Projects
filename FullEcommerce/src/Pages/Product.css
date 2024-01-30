@@ -1,0 +1,78 @@
+.first-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .box1 {
+    width: 300px;
+    height: 1500px;
+    border: 0.4px solid black;
+    background-color: white;
+    position: sticky;
+  }
+
+  .box2 {
+    width: 100%;
+    height: 1500px;
+    border: 0.5px solid black;
+    background-color: white;
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+    flex: 2;
+  }
+  .second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .category {
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+  }
+  .category span input[type="checkbox"] {
+    background-color: red;
+  }
+  .category span {
+    margin: 1rem;
+    font-size: 25px;
+    font-weight: lighter;
+  }
+  .heading-filter {
+    font-weight: bolder;
+    color: red;
+    font-size: x-large;
+  }
+  .flex-page {
+    display: flex;
+  }
+  .card{
+      width: 350px;
+      height: 100%;
+      border: 1px solid black;
+     
+  }
+  img{
+      width: 350px;
+      height:250px;
+      font: 100px;
+
+  }
+  
+  .text{
+     
+      font-size: 20px;
+  }
+  .price{
+      font-weight: bold;
+      margin: 20px;
+      font-size: 15px;
+  }
+  .card-page{
+    margin: 30px 20px ;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 3rem;
+  }
